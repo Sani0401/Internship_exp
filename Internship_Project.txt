@@ -1,0 +1,21 @@
+1. Internship Projects.
+-> During the internship the project that I was working.
+they wanted system where user could get the 360 degree image of of the place where user click on the map.
+--> here we had the data as photos that must be displayed on the screen, so firstly we have to extract the coordinates where the image was taken.
+It was stored as a meta data in the image.
+--> we extracted them and named the image file as that of the coordinates.
+--> Then we stored the data onto the AWS S3.
+--> Then Using the Mapbox GL JS library we implemented the functionality.
+--> The mapbox provided us the basemap, wherein we added the evenlistner of click.
+--> whenever the user clicks the map, it dynamicall gets the coordinates and makes the HTTP request to s3.
+--> If the image is present on the server corresponding to the coordinates we display the image in pop up allowing user to view it in 360.
+--> we also added the functionality of taking the input of coordinates and then impleenting the same thing.
+
+--> Talking about the similiarity of the project we have google maps which displays same thing.
+
+--> About the approach, I could say understanding the actual requirement or problem. Then figuring out what are the ways I know that we could do it. Then validating those ways and tyring to solve it.
+
+--> Talking about things that I looked for over satckoverflow. The extraction of coordinates from the image.
+
+--> Things that I learned, I was not aware of how do we extract metadata from a particular image and also that the coordinates that we extracted are in diffrent format. (There are two format of storing coordinates.)
+ 
